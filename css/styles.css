@@ -1,0 +1,267 @@
+/*font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*common css start*/
+
+:root{
+	--pop:'Poppins', sans-serif;
+	--rob:'Roboto', sans-serif;
+	--black:#000000;
+	--orange:#fcb016;
+	--white:#fff;
+}
+body{
+	 font-family: var(--pop);
+	 font-size:16px;
+	 font-weight:400;
+	 color: var(--black);
+}
+
+/* header start */
+
+#menu_all{
+	
+}
+
+
+.menu ul li a{
+	padding:0 20px !important;
+	font-family: var(--pop);
+	font-weight: 500;
+	color: var(--black) !important;
+}
+.menu ul li a:hover{
+	 color: var(--orange) !important;
+}
+.common_btn{
+	
+	color: var(--black) !important;
+	background-color: var(--orange);
+	border-radius: 33px;
+	font-family: var(--pop);
+	font-weight:500;
+	border:0;
+}
+.common_btn:hover{
+	background-color: var(--black);
+	color: var(--white) !important;
+
+}
+.common_btn:active{
+	background-color: var(--orange) !important;
+	color: var(--white) !important;
+	
+}
+.booking_btn{
+	margin-left:10px;
+	padding: 12px 28px;
+}
+
+/* header start */
+/*slider start--*/
+#slider1{
+	margin-top:0;
+	height:100%;
+}
+.slider_text{
+	position: absolute;
+	right:50%;
+	left:15%;
+    bottom: 28%;
+    text-align:left;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    font-family: var(--pop);
+    
+}
+.slider_text h5{
+	font-size:24px;
+	margin:20px 0;
+	color: var(--orange);
+	text-transform: capitalize;
+}
+.slider_text h1{
+	font-weight:700;
+	font-size:60px;
+	text-transform: capitalize;
+	margin:20px 0;
+	line-height:70px;
+}
+.slider_text h1 span{
+
+}
+.slider_text p{
+	font-size:18px;
+	line-height:36px;
+	letter-spacing: 1.5px;
+}
+.carousel-indicators [data-bs-target] {
+	height:0px !important;
+}
+/*slider end--*/
+/*about us start*/
+.about_area{
+	padding-top:100px;
+}
+
+.common_area{
+	padding-bottom:100px;
+}
+.common_h5{
+	color: var(--orange);
+	text-transform: capitalize;
+	margin-bottom:20px;
+}
+.common_title{
+	
+}
+.common_h1{
+	font-size:36px;
+	font-weight:700;
+	color: var(--orange) !important;
+}
+.about_text{
+	text-align: right;
+}
+.about_text h2{
+	font-size:28px;
+	font-weight:500;
+	margin:24px 0;
+}
+.about_text p{
+	line-height:36px;
+	
+}
+/*about area end*/
+/*service area start*/
+
+.single_service{
+	margin:60px 0 0;
+	padding:24px 20px 30px;
+	border-radius: 18px;
+	box-shadow:0px 10px 40px 0px #0000001A;
+	border: 0px solid var(--orange);
+  	box-sizing: border-box;
+  	text-align: center;
+
+
+
+}
+.single_service:hover{
+	border: 1px solid var(--orange);
+	box-shadow:0px 10px 40px 0px #0000001c;
+}
+.service_h2{
+	margin:20px 0 10px;
+	font-size: 22px;
+    font-weight: 500;
+
+
+}
+.service_p{}
+.service_btn{
+	margin:20px 0 25px;
+	padding:8px 28px;
+}
+
+
+/*service area end*/
+
+
+/*pricing area start*/
+
+.pricing_area{}
+.single_pricing{
+	margin:60px 0 0;
+	padding:24px 20px 30px;
+	border-radius: 18px;
+	box-shadow:0px 10px 40px 0px #d1d1d1;
+	border: 0px solid var(--orange);
+  	box-sizing: border-box;
+  	text-align: center;
+  }
+
+ .single_pricing:hover{
+  	border: 1px solid var(--orange);
+  	box-sizing: border-box;
+}
+.pricing_img{}
+.pricing_text ul li{
+	margin:5px 0;
+	font-size:16px;
+	font-weight:400;
+}
+.pricing_text ul li span{
+	color:var(--black);
+	font-size:16px;
+	font-weight:400;
+}
+.price_h2{}
+.pricing_table{
+	margin:0;
+	padding:30px;
+}
+.price_p{}
+
+/*pricing area end*/
+/*subscribe*/
+.subscribe{
+
+
+	
+	 min-height: 400px;
+	 
+	 background-color: var(--orange);
+
+}
+.signup{
+	padding: 50px 0;
+}
+.signup_h1{
+	margin:30px 0;
+	color: var(--black) !important;
+
+}
+.signup p{
+	font-size: 18px;
+	margin-bottom:35px;
+}
+
+.signup_form input{
+   
+   border:2px solid black;
+   
+   background: white;
+   border-radius: 33px;
+	font-family: var(--pop);
+	font-weight:500;
+	margin-left:10px;
+	padding: 12px 40px;
+   
+}
+.signup_btn{
+	border:2px solid black;
+	color: var(--white) !important;
+	background-color: var(--black);
+	padding: 12px 28px;
+}
+.signup_btn:active{
+	background-color: var(--orange) !important;
+	color: var(--black) !important;
+	border:2px solid black;
+	
+}
+.booking_area{
+	background-color: black;
+	padding:70px 0;
+}
+.booking_single{
+	margin:30px 0;
+}
+.booking_form input{
+	color: white;
+}
